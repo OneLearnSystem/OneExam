@@ -1,0 +1,98 @@
+ONE EXAM — WEBSITE RELEASE 1.0
+
+WHAT IS INCLUDED
+• Your OneExam logo, preserved from the supplied image.
+• Blue-and-white dashboard, local SVG image icons and responsive layouts.
+• 78 original Maths questions across 18 topics, with Foundation/Higher filters.
+• Interactive straight-line and quadratic graphs, coordinate entry, point dragging,
+  undo, line/curve tools, answer checking, hints and worked solutions.
+• Scatter-graph and bar-chart questions, numerical questions and bookmarks.
+• 12 English Literature/Language activities, editable plans, autosaved responses,
+  downloadable writing and self-review checklists.
+• Timed Maths sets and timed English writing, resume and end-of-session review.
+• Free email accounts, private cloud progress, guest practice, exports and sync-conflict protection.
+• AQA and Pearson Edexcel GCSE May–June 2027 timetable selections, Maths tiers,
+  Edexcel Language 1EN0/1EN2 distinction, countdowns, school-confirmed times,
+  calendar downloads, print view and revision-session planning.
+
+INSTALL ON GITHUB PAGES
+1. Extract the ZIP. All files are at the top level; there are no subfolders.
+2. Upload the website files directly to your OneExam GitHub repository. index.html
+   must be at the publishing root, alongside config.js, style.css and the .mjs files.
+   Keep all SVG and PNG images beside index.html. Include .nojekyll.
+3. Enable GitHub Pages for that branch/folder through your usual publishing process.
+4. Your expected URL, if the repository is named OneExam, is:
+   https://onelearnsystem.github.io/OneExam/
+   Use your actual published URL in the account settings below.
+5. Use the published URL to test. Opening index.html directly from a ZIP or with
+   file:// does not support the JavaScript modules reliably.
+
+CONNECT FREE ACCOUNTS — REQUIRED ONCE
+Guest practice works without SQL. Free accounts/cloud progress need these steps:
+1. In the SAME Supabase project used by config.js, open SQL Editor and run
+   OneExam-Account-Setup.sql. This creates a separate oneexam_progress table and
+   oneexam_save function; it does not replace existing OneHome/OneEducate tables.
+2. In Authentication, ensure Email sign-ups are enabled. Keep email confirmation
+   enabled and configure your project's email delivery for real students.
+3. Under Authentication > URL Configuration, add your actual OneExam URL to the
+   allowed Redirect URLs. Add both directory and index.html forms if you use both:
+   https://onelearnsystem.github.io/OneExam/
+   https://onelearnsystem.github.io/OneExam/index.html
+   Preserve existing OneLearn URLs and settings. You do not need to replace the
+   project's Site URL just to add OneExam.
+4. config.js is included and uses the existing OneLearn public Supabase connection.
+   If you choose a different project, replace supabaseUrl and supabaseKey there.
+   Use ONLY an anon/publishable browser key, never a service-role or secret key.
+5. Test with an account you control: sign up, follow the confirmation email, sign in,
+   choose subjects, save a response, reload, and sign out. Test password reset too.
+   Actual email delivery and the live project configuration were not changed or
+   tested during this local build.
+
+HOW TO USE IT
+• Guest practice saves work in that browser. Account work and guest work are
+  deliberately separate; signing in does not automatically import guest history.
+• Choose exam boards and Maths tier under My timetable > Choose subjects.
+• Click a paper to add a school-confirmed start time. Do not guess school times.
+• Calendar exports use all-day entries if no school start time is entered. May/June
+  school times use UK summer time, converted to UTC in the exported calendar.
+• If two devices change progress, OneExam preserves the local copy and blocks a
+  conflicting overwrite. My account > Export my work keeps a backup. Load cloud
+  copy downloads a backup before replacing the local copy with server progress.
+• Password reset does not delete any work. Clear OneExam progress keeps the wider
+  OneLearn account. Timed English practice keeps an existing draft rather than
+  silently deleting it.
+
+CONTENT & LIMITS
+This is an initial question bank, not exhaustive GCSE curriculum coverage. All
+practice questions are original. No Zelo Maths questions or exam-board papers were
+copied. The structure takes inspiration from topic-filtered practice.
+
+Numerical responses are answer checks: they do not automatically award written
+method marks. Graphs use point/shape checks. English uses self-review and short
+example paragraphs, not an AI marker or predicted GCSE grades. Practice exams are
+short original practice sets, not official full-length papers.
+
+Only AQA and Pearson Edexcel GCSE timetable entries are included. Official sources
+and last-checked date are displayed in the site. Dates were verified on 21 October
+2026; keep checking the board publications for changes. School start times and
+access arrangements must be confirmed by the school. Keep 23 June 2027 available
+for the national contingency day.
+
+MAINTENANCE
+Question content and exam dates: data.mjs
+Icons, logo and illustrations: SVG/PNG files beside index.html
+Appearance: style.css
+Account connection: config.js
+Account SQL: OneExam-Account-Setup.sql
+
+Before public release, review the About & privacy page against your organisation's
+actual operating arrangements. There are no analytics or advertising scripts in
+this release.
+
+TESTED
+Microsoft Edge desktop and 390px mobile layouts; all generated answer keys;
+coordinate plotting and pointer dragging; graph checking; numeric/fraction parsing;
+bookmarks; draft recovery; timed-session recovery and expiry; signup/reset request
+flows with mocked email delivery; account sync against a local PostgreSQL-compatible
+test database; private per-user rows; concurrent-save conflicts; timetable choices;
+calendar export; revision planning; search and filters. Live deployment is not changed.
