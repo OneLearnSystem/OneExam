@@ -1,0 +1,4 @@
+export function mixTopics(pool){const groups=new Map();for(const q of pool){if(!groups.has(q.topic))groups.set(q.topic,[]);groups.get(q.topic).push(q);}const result=[];for(let i=0;result.length<pool.length;i++)for(const group of groups.values())if(group[i])result.push(group[i]);return result;}
+function shuffle(items){const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+export function practiceSet(pool,count){return mixTopics(shuffle(pool)).slice(0,count);}
+export function nextQuestion(pool,current,attempts=[]){const seen=new Set(attempts.map(a=>a.qid));const candidates=pool.filter(q=>q.topic!==current.topic&&(current.tier==='Both'||q.tier==='Both'||q.tier===current.tier));return practiceSet(candidates.filter(q=>!seen.has(q.id)),1)[0]||practiceSet(candidates,1)[0]||current;}

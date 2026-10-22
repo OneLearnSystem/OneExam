@@ -1,0 +1,1472 @@
+export const bundledLessons = [
+  {
+    "id": "fractions-decimals",
+    "subject": "maths",
+    "title": "Fractions and decimals",
+    "summary": "Understand how fractions and decimals represent the same quantities.",
+    "position": 1,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Parts of a whole",
+          "text": "A fraction describes equal parts. In 3/4, the denominator 4 tells you how many equal parts make the whole and the numerator 3 tells you how many are selected. Equivalent fractions describe the same amount: multiplying or dividing both numbers by the same non-zero number preserves the value."
+        },
+        {
+          "title": "Changing representation",
+          "text": "Divide the numerator by the denominator to convert a fraction to a decimal. A terminating decimal ends; a recurring decimal repeats indefinitely. To convert a terminating decimal to a fraction, use place value: 0.35 means 35 hundredths, or 35/100. Simplify using a common factor."
+        },
+        {
+          "title": "Calculating accurately",
+          "text": "For addition and subtraction, write fractions with a common denominator before combining numerators. For multiplication, multiply numerators and denominators. Dividing by a non-zero fraction means multiplying by its reciprocal. Do not add denominators when adding fractions."
+        }
+      ],
+      "example": {
+        "title": "Worked example: 3/4 + 0.2",
+        "steps": [
+          "Write 0.2 as 1/5.",
+          "Use twentieths: 3/4 = 15/20 and 1/5 = 4/20.",
+          "Add the numerators: 15/20 + 4/20 = 19/20.",
+          "Divide 19 by 20 to check: the answer is 0.95."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Equivalent",
+          "meaning": "Equal in value, even if written differently."
+        },
+        {
+          "term": "Reciprocal",
+          "meaning": "The number that multiplies a non-zero number to give 1."
+        }
+      ],
+      "takeaways": [
+        "Fractions require equal-sized parts.",
+        "Use common denominators for addition and subtraction.",
+        "Keep exact fractions until rounding is needed."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "percentages",
+    "subject": "maths",
+    "title": "Percentages",
+    "summary": "Connect percentages, multipliers and changes in value.",
+    "position": 2,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Out of one hundred",
+          "text": "Percent means per hundred. Therefore 18% = 18/100 = 0.18. To find a percentage of a quantity, multiply by its decimal equivalent. Simple benchmarks help with mental calculations: 10% is one tenth and 5% is half of 10%."
+        },
+        {
+          "title": "Percentage changes",
+          "text": "For an increase of 12%, keep the original 100% and add 12%, giving a multiplier of 1.12. For a decrease of 12%, retain 88%, giving 0.88. Repeated changes use repeated multiplication; a 10% increase followed by a 10% decrease does not cancel."
+        },
+        {
+          "title": "Working backwards",
+          "text": "A reverse-percentage problem gives you the result after a change. Divide by the multiplier to recover the original value. Subtracting the same percentage from the new amount uses a different base and normally gives the wrong answer."
+        }
+      ],
+      "example": {
+        "title": "Worked example: a coat costs £68 after a 15% reduction",
+        "steps": [
+          "A 15% reduction leaves 85% of the original price.",
+          "Write 85% as the multiplier 0.85.",
+          "Original price = £68 ÷ 0.85 = £80.",
+          "Check: 15% of £80 is £12, and £80 − £12 = £68."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Multiplier",
+          "meaning": "A factor used to apply a proportional change."
+        },
+        {
+          "term": "Percentage point",
+          "meaning": "The difference between two percentages, not a relative percentage change."
+        }
+      ],
+      "takeaways": [
+        "Match the multiplier to what remains.",
+        "Divide to reverse a percentage change.",
+        "Successive changes multiply rather than simply add."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "ratio-proportion",
+    "subject": "maths",
+    "title": "Ratio and proportion",
+    "summary": "Use parts, scale factors and unit values to compare quantities.",
+    "position": 3,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Reading ratios",
+          "text": "A ratio compares quantities in a specified order. Red:blue = 2:3 means two red parts for every three blue parts, so five parts altogether. A part can represent one object or many. Simplify ratios by dividing all entries by a common factor."
+        },
+        {
+          "title": "Sharing and scaling",
+          "text": "To share a total, add the ratio entries, divide the total by this sum, and multiply by each entry. To scale a recipe, find the factor connecting the old and new serving counts and apply it to every ingredient."
+        },
+        {
+          "title": "Direct and inverse proportion",
+          "text": "In direct proportion, y = kx: doubling x doubles y. In inverse proportion, y = k/x: doubling x halves y. These are specific relationships; two quantities changing together are not automatically directly proportional."
+        }
+      ],
+      "example": {
+        "title": "Worked example: share £84 in the ratio 2:5",
+        "steps": [
+          "There are 2 + 5 = 7 equal parts.",
+          "One part is £84 ÷ 7 = £12.",
+          "The shares are 2 × £12 = £24 and 5 × £12 = £60.",
+          "Check the total: £24 + £60 = £84."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Scale factor",
+          "meaning": "The multiplier connecting corresponding quantities."
+        },
+        {
+          "term": "Constant of proportionality",
+          "meaning": "The fixed value k in a proportional relationship."
+        }
+      ],
+      "takeaways": [
+        "Keep the stated ratio order.",
+        "Find the value of one part first.",
+        "Distinguish direct proportion from inverse proportion."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "solving-equations",
+    "subject": "maths",
+    "title": "Solving equations",
+    "summary": "Keep both sides balanced while isolating an unknown.",
+    "position": 4,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "An equation is a balance",
+          "text": "The equals sign states that two expressions have the same value. Applying the same operation to both sides preserves that equality. Your goal is to isolate the unknown, usually by undoing addition or subtraction before undoing multiplication or division."
+        },
+        {
+          "title": "Brackets and unknowns on both sides",
+          "text": "Expand brackets carefully, multiplying every term inside. Collect unknown terms on one side and constants on the other. Keep the equals sign in each line so the reasoning is visible. A negative coefficient is still handled by dividing both sides by that coefficient."
+        },
+        {
+          "title": "Checking your result",
+          "text": "Substitute your answer into the original equation, not just the last simplified line. Both sides should evaluate to the same number. This catches missed bracket terms and sign errors."
+        }
+      ],
+      "example": {
+        "title": "Worked example: solve 3(x + 2) = 2x + 11",
+        "steps": [
+          "Expand the left: 3x + 6 = 2x + 11.",
+          "Subtract 2x from both sides: x + 6 = 11.",
+          "Subtract 6 from both sides: x = 5.",
+          "Check: 3(5 + 2) = 21 and 2(5) + 11 = 21."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Inverse operation",
+          "meaning": "An operation that undoes another operation."
+        },
+        {
+          "term": "Coefficient",
+          "meaning": "The number multiplying an unknown, such as 3 in 3x."
+        }
+      ],
+      "takeaways": [
+        "Do the same thing to both sides.",
+        "Expand every term in a bracket.",
+        "Check by substitution into the original equation."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "sequences",
+    "subject": "maths",
+    "title": "Sequences",
+    "summary": "Recognise term-to-term patterns and build nth-term rules.",
+    "position": 5,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Positions and terms",
+          "text": "A term is a value in the sequence; its position tells you where it appears. In 5, 8, 11, 14, the first term is 5 and the fourth term is 14. A term-to-term rule explains how to move between neighbours, whereas an nth-term rule gives a value directly from its position."
+        },
+        {
+          "title": "Arithmetic sequences",
+          "text": "When the difference between successive terms is constant, the sequence is arithmetic. If that difference is d, begin the nth-term rule with dn. Compare the first value generated by dn with the actual first term to find the adjustment."
+        },
+        {
+          "title": "Beyond constant differences",
+          "text": "For a quadratic sequence, first differences change but second differences are constant. The coefficient of n² is half the second difference. This test assumes you are investigating a quadratic pattern; a finite list alone does not uniquely determine every future term."
+        }
+      ],
+      "example": {
+        "title": "Worked example: 5, 8, 11, 14, …",
+        "steps": [
+          "The common difference is 3, so start with 3n.",
+          "3n gives 3 at n = 1; the actual first term is 5. Add 2.",
+          "The rule is 3n + 2.",
+          "At position 20, the value is 3 × 20 + 2 = 62."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Arithmetic sequence",
+          "meaning": "A sequence with a constant difference between consecutive terms."
+        },
+        {
+          "term": "nth term",
+          "meaning": "A rule expressing a term in terms of its position n."
+        }
+      ],
+      "takeaways": [
+        "Do not confuse a term with its position.",
+        "Constant first differences indicate a linear rule.",
+        "Test your rule on more than one known term."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "straight-line-graphs",
+    "subject": "maths",
+    "title": "Straight-line graphs",
+    "summary": "Connect coordinates, gradients and intercepts.",
+    "position": 6,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Coordinates and axes",
+          "text": "A point (x, y) gives horizontal movement first and vertical movement second. Negative coordinates lie left of or below the origin. Always read each axis scale; one small square does not necessarily represent one unit."
+        },
+        {
+          "title": "The form y = mx + c",
+          "text": "The coefficient m is the gradient, describing the change in y for each unit change in x. The constant c is the y-intercept, where the graph crosses the vertical axis. A positive gradient rises left to right; a negative gradient falls."
+        },
+        {
+          "title": "Drawing and interpreting",
+          "text": "Calculate several coordinate pairs, plot them accurately and use a straight line through them. From two points, gradient = change in y ÷ change in x. A vertical line has undefined gradient, so it cannot be written in the form y = mx + c."
+        }
+      ],
+      "example": {
+        "title": "Worked example: draw y = 2x + 1",
+        "steps": [
+          "For x = −1, y = −1. For x = 0, y = 1. For x = 1, y = 3.",
+          "Plot (−1, −1), (0, 1) and (1, 3).",
+          "Join with a straight line; it crosses the y-axis at 1.",
+          "Between the first two points, rise ÷ run = 2 ÷ 1 = 2."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Gradient",
+          "meaning": "The change in y divided by the change in x."
+        },
+        {
+          "term": "Intercept",
+          "meaning": "A point where a graph meets an axis."
+        }
+      ],
+      "takeaways": [
+        "Read x before y.",
+        "m controls steepness and c controls the y-intercept.",
+        "Use several points to check a straight-line plot."
+      ],
+      "diagram": "line"
+    }
+  },
+  {
+    "id": "quadratic-graphs",
+    "subject": "maths",
+    "title": "Quadratic graphs",
+    "summary": "Learn how a quadratic curve changes and what its key points mean.",
+    "position": 7,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "The shape of a quadratic",
+          "text": "A quadratic expression has a highest power of x². Its graph is a parabola. A positive x² coefficient gives a U-shaped curve; a negative coefficient gives an upside-down U. The turning point is a minimum or maximum."
+        },
+        {
+          "title": "Tables of values",
+          "text": "Substitute each x carefully. For x², square the whole signed value: (−2)² = 4. A table spanning both sides of the turning point helps reveal symmetry. Join plotted points with a smooth curve rather than a series of straight segments."
+        },
+        {
+          "title": "Roots and turning points",
+          "text": "Roots are the x-values where y = 0, so they appear at x-axis crossings. The y-intercept is found by setting x = 0. Quadratics may have two, one or no real roots. A turning point on the x-axis gives a repeated root."
+        }
+      ],
+      "example": {
+        "title": "Worked example: y = x² − 1",
+        "steps": [
+          "For x = −2, −1, 0, 1, 2, the y-values are 3, 0, −1, 0, 3.",
+          "The turning point is (0, −1).",
+          "The roots are x = −1 and x = 1, where the curve meets the x-axis.",
+          "The curve is symmetric about the y-axis."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Parabola",
+          "meaning": "The curve formed by a quadratic function."
+        },
+        {
+          "term": "Root",
+          "meaning": "An input value for which the expression equals zero."
+        }
+      ],
+      "takeaways": [
+        "Square negative values using brackets.",
+        "Use a smooth curve, not straight joins.",
+        "Roots, intercepts and turning points are different features."
+      ],
+      "diagram": "quadratic"
+    }
+  },
+  {
+    "id": "geometry-angles",
+    "subject": "maths",
+    "title": "Geometry and angles",
+    "summary": "Use established angle facts to build a clear chain of reasoning.",
+    "position": 8,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Core angle facts",
+          "text": "Angles on a straight line total 180°. Angles around a point total 360°. Vertically opposite angles are equal. The interior angles of a triangle total 180°. These facts often combine within one diagram."
+        },
+        {
+          "title": "Parallel lines",
+          "text": "When a transversal crosses parallel lines, corresponding angles are equal, alternate angles are equal, and co-interior angles total 180°. The lines must be parallel before these rules apply; a diagram that merely looks parallel is not sufficient evidence."
+        },
+        {
+          "title": "Polygons and reasons",
+          "text": "An n-sided polygon has interior-angle sum (n − 2) × 180°. In a regular polygon, divide that sum by n to find each interior angle. Give the geometric reason alongside each calculation, and do not assume a sketch is drawn accurately."
+        }
+      ],
+      "example": {
+        "title": "Worked example: a regular hexagon",
+        "steps": [
+          "A hexagon has 6 sides.",
+          "Its interior-angle sum is (6 − 2) × 180° = 720°.",
+          "Because it is regular, each interior angle is 720° ÷ 6 = 120°.",
+          "Each exterior angle is 180° − 120° = 60°."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Transversal",
+          "meaning": "A line crossing two or more other lines."
+        },
+        {
+          "term": "Regular polygon",
+          "meaning": "A polygon with equal sides and equal interior angles."
+        }
+      ],
+      "takeaways": [
+        "State the reason for each angle step.",
+        "Use parallel-line facts only when parallelism is given.",
+        "Regularity is required before dividing an angle sum equally."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "probability",
+    "subject": "maths",
+    "title": "Probability",
+    "summary": "Describe uncertainty using outcomes, fractions and combined events.",
+    "position": 9,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "The probability scale",
+          "text": "Probability lies from 0 to 1. Zero means impossible and one means certain. For equally likely outcomes, probability is favourable outcomes divided by total outcomes. This counting formula needs equally likely possibilities; it is not automatically valid for a biased spinner."
+        },
+        {
+          "title": "Complementary and combined events",
+          "text": "An event and its complement cover all possibilities, so their probabilities add to 1. For mutually exclusive alternatives, add probabilities. For independent events happening together, multiply probabilities. Without independence, use the appropriate conditional probability instead."
+        },
+        {
+          "title": "Tree diagrams",
+          "text": "Branches from the same point total 1. Multiply along a path, then add the probabilities of relevant separate paths. If an object is not replaced, both the available count and total may change before the next selection."
+        }
+      ],
+      "example": {
+        "title": "Worked example: two independent fair coin tosses",
+        "steps": [
+          "Each toss has probability 1/2 of heads and 1/2 of tails.",
+          "The probability of two heads is 1/2 × 1/2 = 1/4.",
+          "Exactly one head can occur as HT or TH.",
+          "Add the two paths: 1/4 + 1/4 = 1/2."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Independent",
+          "meaning": "One event does not change the probability of the other."
+        },
+        {
+          "term": "Mutually exclusive",
+          "meaning": "Events that cannot occur together in the situation considered."
+        }
+      ],
+      "takeaways": [
+        "Check whether outcomes are equally likely.",
+        "Multiply along tree paths and add separate relevant paths.",
+        "Independence and mutual exclusivity are different ideas."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "statistics-charts",
+    "subject": "maths",
+    "title": "Statistics and charts",
+    "summary": "Choose useful summaries and interpret data without overclaiming.",
+    "position": 10,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Measures of centre",
+          "text": "The mean is the sum divided by the number of values. The median is the middle value after ordering. With an even number of values, average the two middle values. The mode is the most frequent value; there may be more than one mode or no useful single mode."
+        },
+        {
+          "title": "Spread and unusual values",
+          "text": "The range is maximum minus minimum. An extreme value can strongly affect both the mean and range, so the median may be more representative for skewed data. A summary should be chosen for the context rather than automatically."
+        },
+        {
+          "title": "Reading charts critically",
+          "text": "Check axis labels, units, intervals and whether an axis begins at zero. In a histogram, frequency is represented by area, not just height: frequency density = frequency ÷ class width. A correlation in a scatter graph does not establish causation."
+        }
+      ],
+      "example": {
+        "title": "Worked example: 2, 3, 3, 4, 18",
+        "steps": [
+          "The total is 30, so the mean is 30 ÷ 5 = 6.",
+          "The median is the third value, 3, and the mode is also 3.",
+          "The range is 18 − 2 = 16.",
+          "The unusually large value 18 pulls the mean above most observations."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Outlier",
+          "meaning": "An observation unusually far from the main pattern."
+        },
+        {
+          "term": "Frequency density",
+          "meaning": "Frequency divided by class width in a histogram."
+        }
+      ],
+      "takeaways": [
+        "Order data before finding the median.",
+        "Consider both centre and spread.",
+        "Read chart scales and avoid assuming correlation proves cause."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "building-an-argument",
+    "subject": "literature",
+    "title": "Building an argument",
+    "summary": "Turn a sequence of observations into a clear interpretation.",
+    "position": 1,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Start with an interpretation",
+          "text": "A literary argument is a supported view about how a text creates meaning. It should respond to the specific focus rather than simply announce the topic. A thesis can also acknowledge tension: a character may appear powerful while being limited by fear."
+        },
+        {
+          "title": "Develop rather than repeat",
+          "text": "Each paragraph should add a stage to your reasoning. Move between a precise moment and the wider text, showing how your interpretation develops. Repeating the same claim with a new quotation is less effective than exploring a change or complication."
+        },
+        {
+          "title": "Keep alternatives purposeful",
+          "text": "A different interpretation can strengthen your argument when it grows from the evidence. Explain why it is plausible and how it affects your overall view. Do not attach a disconnected alternative simply to sound balanced."
+        }
+      ],
+      "example": {
+        "title": "Example: planning an argument about Macbeth",
+        "steps": [
+          "Central view: ambition gains Macbeth power but undermines his security.",
+          "First stage: he recognises the moral danger before acting.",
+          "Second stage: becoming king does not end his fear; violence escalates.",
+          "Concluding connection: Shakespeare presents power without moral restraint as unstable."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Thesis",
+          "meaning": "The central interpretation your response develops."
+        },
+        {
+          "term": "Argument",
+          "meaning": "A connected line of reasoning supported by evidence."
+        }
+      ],
+      "takeaways": [
+        "Answer the exact focus.",
+        "Let each paragraph develop your interpretation.",
+        "Connect local evidence to the whole text."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "choosing-quotations",
+    "subject": "literature",
+    "title": "Choosing quotations",
+    "summary": "Use short, precise evidence that gives your analysis something to explain.",
+    "position": 2,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Select for a reason",
+          "text": "Choose evidence because it supports a point or contains an interesting method. A short phrase often allows closer analysis than a long passage. Remember that an accurate reference to an event can also support a whole-text argument."
+        },
+        {
+          "title": "Embed evidence clearly",
+          "text": "Fit a quotation into your own sentence while preserving its wording and meaning. Explain who speaks or what is happening when that context matters. Use quotation marks for actual quoted wording; paraphrases should not be presented as exact quotations."
+        },
+        {
+          "title": "Move beyond the quotation",
+          "text": "Evidence alone does not establish an interpretation. Explain the significance of specific words, images or contrasts. Avoid presenting a quotation and then restating it in slightly different language."
+        }
+      ],
+      "example": {
+        "title": "Example: precise quotation use",
+        "steps": [
+          "Observation: Scrooge shuts himself away from others.",
+          "Evidence: Dickens describes him as “solitary as an oyster”.",
+          "Focus on the protective shell and potential hidden value of the comparison.",
+          "Connect the image to both isolation and the possibility of change."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Embedded quotation",
+          "meaning": "Quoted wording integrated into your own sentence."
+        },
+        {
+          "term": "Paraphrase",
+          "meaning": "A restatement in your own words, not a direct quotation."
+        }
+      ],
+      "takeaways": [
+        "Choose evidence that serves your point.",
+        "Keep quotations accurate and manageable.",
+        "Explain how the evidence supports your interpretation."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "analysing-language",
+    "subject": "literature",
+    "title": "Analysing language",
+    "summary": "Explore how writers’ word choices shape meaning and response.",
+    "position": 3,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Notice before naming",
+          "text": "Begin with what a word or image suggests in context. Naming a simile or metaphor is useful only when you explain what the comparison achieves. Consider associations, contrasts, tone and the relationships between nearby words."
+        },
+        {
+          "title": "Follow the detail",
+          "text": "A strong explanation moves from precise wording to a supported inference. Verbs may suggest agency or force; adjectives may shape a judgement; a repeated image may connect moments across a text. Grammatical labels are not a substitute for interpretation."
+        },
+        {
+          "title": "Avoid automatic effects",
+          "text": "Readers do not all react identically. Use phrasing such as suggests, may imply or invites the audience to consider when interpretation is open. Claims about the writer’s purpose should be grounded in the text."
+        }
+      ],
+      "example": {
+        "title": "Example: Macbeth’s “black and deep desires”",
+        "steps": [
+          "“Desires” identifies an inward motivation rather than an external command.",
+          "“Black” associates that motivation with concealment and moral darkness.",
+          "“Deep” may suggest that the ambition is firmly rooted or difficult to expose.",
+          "Together, the words show Macbeth recognising the troubling nature of his ambition."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Connotation",
+          "meaning": "An association a word carries beyond its basic meaning."
+        },
+        {
+          "term": "Imagery",
+          "meaning": "Language that creates sensory impressions or comparisons."
+        }
+      ],
+      "takeaways": [
+        "Explain the selected wording, not just the device.",
+        "Keep the interpretation grounded in context.",
+        "Avoid claiming every reader must respond in one way."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "analysing-structure",
+    "subject": "literature",
+    "title": "Analysing structure",
+    "summary": "Understand how the arrangement of a whole text contributes to meaning.",
+    "position": 4,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Look at the order",
+          "text": "Structure concerns how parts are arranged: openings and endings, shifts in focus, revelations, contrasts and recurring patterns. Ask what readers or audiences know at each stage and why later information changes their understanding."
+        },
+        {
+          "title": "Connect form and meaning",
+          "text": "In drama, entrances, exits, stage directions and the order of speeches shape the audience’s experience. In a novel, narrative viewpoint and chronology control access to information. In poetry, stanza patterns, pauses and line endings can support shifts in thought."
+        },
+        {
+          "title": "Explain development",
+          "text": "Identify a pattern, describe where it changes and explain why that change matters. Simply saying that a text has paragraphs, stanzas or a beginning is not analysis. Structural observations work best when connected to the text’s concerns."
+        }
+      ],
+      "example": {
+        "title": "Example: Scrooge’s journey across time",
+        "steps": [
+          "The spirits move through past, present and possible future.",
+          "The past makes his present attitudes more understandable.",
+          "The present exposes consequences beyond his own experience.",
+          "The possible future makes change urgent rather than inevitable."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Chronology",
+          "meaning": "The order in which events happen or are presented."
+        },
+        {
+          "term": "Juxtaposition",
+          "meaning": "Placing contrasting elements together to highlight a relationship."
+        }
+      ],
+      "takeaways": [
+        "Track what changes and where.",
+        "Name the relevant structural choice precisely.",
+        "Explain its contribution to the whole text."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "using-context",
+    "subject": "literature",
+    "title": "Using context",
+    "summary": "Connect relevant historical and social ideas to textual evidence.",
+    "position": 5,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Context illuminates meaning",
+          "text": "Context can include social attitudes, political conditions, genre traditions and the circumstances of writing or reception. Use it to clarify a detail or interpretation rather than inserting a detached historical fact."
+        },
+        {
+          "title": "Distinguish different moments",
+          "text": "A text’s setting, date of composition and modern reception may differ. An Inspector Calls, for example, is set in 1912 but was written during the Second World War. That distance contributes to dramatic irony and the evaluation of confident predictions."
+        },
+        {
+          "title": "Avoid sweeping claims",
+          "text": "Historical audiences did not all think alike. Explain a relevant belief or debate with care, and avoid presenting an author’s exact intention as known unless there is evidence. Context should support, not replace, close reading."
+        }
+      ],
+      "example": {
+        "title": "Example: social responsibility in An Inspector Calls",
+        "steps": [
+          "Begin with a contrast in attitudes between characters.",
+          "Explain how the play’s earlier setting allows later audiences to recognise flawed assumptions.",
+          "Connect that perspective to responsibility for other people.",
+          "Return to the specific words or dramatic choices that support the point."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Context",
+          "meaning": "Circumstances and ideas that help explain a text."
+        },
+        {
+          "term": "Dramatic irony",
+          "meaning": "A gap between a character’s understanding and the audience’s knowledge."
+        }
+      ],
+      "takeaways": [
+        "Choose context relevant to the point.",
+        "Distinguish setting from composition.",
+        "Return to the text after contextual explanation."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "macbeth-ambition-guilt",
+    "subject": "literature",
+    "title": "Macbeth: ambition and guilt",
+    "summary": "Follow how desire, choice and conscience develop through the tragedy.",
+    "position": 6,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Ambition becomes action",
+          "text": "Macbeth hears predictions, but the play also shows him considering and choosing his actions. His awareness of duty and consequence makes his decision significant. Lady Macbeth’s persuasion matters without removing his agency."
+        },
+        {
+          "title": "Guilt takes dramatic form",
+          "text": "Blood, sleeplessness and disturbing visions connect inward distress with visible or spoken images. Consider when these motifs occur and whether other characters can share the experience. The dramatic form lets audiences witness private fear through speeches and behaviour."
+        },
+        {
+          "title": "Compare the characters over time",
+          "text": "Macbeth and Lady Macbeth do not remain fixed opposites. Their responses to violence and guilt change. Build a whole-play interpretation by comparing early certainty or hesitation with later isolation and psychological disturbance."
+        }
+      ],
+      "example": {
+        "title": "Example: interpreting the blood motif",
+        "steps": [
+          "Immediately after Duncan’s murder, Macbeth imagines an ocean unable to clean his hand.",
+          "The exaggerated scale makes guilt seem resistant to physical washing.",
+          "Later references to blood can connect concealment, memory and further violence.",
+          "Use the motif’s development to link ambition’s achievement with its cost."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Motif",
+          "meaning": "A recurring image, idea or pattern."
+        },
+        {
+          "term": "Tragedy",
+          "meaning": "A dramatic form involving serious conflict and destructive consequences."
+        }
+      ],
+      "takeaways": [
+        "Explain choices rather than blaming fate alone.",
+        "Track recurring images across the play.",
+        "Compare how both characters change."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "christmas-carol-change",
+    "subject": "literature",
+    "title": "A Christmas Carol: change",
+    "summary": "Understand how Dickens presents transformation as personal and social.",
+    "position": 7,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "The starting point",
+          "text": "Scrooge’s isolation and concern with money establish the attitudes that need to change. The narrator’s descriptions help readers judge him while sometimes leaving room for a different future. Pay attention to humour as well as criticism."
+        },
+        {
+          "title": "Memory and empathy",
+          "text": "The supernatural visits expose experiences Scrooge has neglected or forgotten. His reactions matter as much as the scenes themselves: he becomes a witness to other lives and to the consequences of his own conduct."
+        },
+        {
+          "title": "Transformation needs action",
+          "text": "The ending shows generosity and renewed relationships rather than only an announcement of regret. The novella links personal feeling to practical responsibility. Consider how the joyful tone supports the possibility of reform."
+        }
+      ],
+      "example": {
+        "title": "Example: “all the year”",
+        "steps": [
+          "Scrooge promises to keep Christmas “all the year”.",
+          "The phrase extends generosity beyond a single celebration.",
+          "The future-oriented promise signals a conscious change of direction.",
+          "Connect the promise to later actions that make the transformation credible."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Novella",
+          "meaning": "A prose narrative shorter than a typical novel."
+        },
+        {
+          "term": "Redemption",
+          "meaning": "Recovery or reform after wrongdoing or moral failure."
+        }
+      ],
+      "takeaways": [
+        "Track changes in reaction and action.",
+        "Connect personal reform with social responsibility.",
+        "Use narrative tone as part of your analysis."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "inspector-responsibility",
+    "subject": "literature",
+    "title": "An Inspector Calls: responsibility",
+    "summary": "Explore the relationship between individual choices and collective consequences.",
+    "position": 8,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Connected actions",
+          "text": "The investigation links decisions made by different members of the household. The sequence encourages audiences to see a chain of responsibility rather than an isolated incident. Consider the cumulative effect of separate revelations."
+        },
+        {
+          "title": "The Inspector’s dramatic role",
+          "text": "The Inspector controls information, challenges evasions and redirects attention. His significance lies in his function within the drama as well as the mystery of his identity. Analyse how his presence changes speech and behaviour."
+        },
+        {
+          "title": "Responses reveal values",
+          "text": "Characters differ in whether they accept moral responsibility or focus on reputation and proof. The ending complicates attempts to return to normal. A thoughtful reading explores these contrasts without reducing every character to a single label."
+        }
+      ],
+      "example": {
+        "title": "Example: building a paragraph about responsibility",
+        "steps": [
+          "Identify a moment where a character tries to distance themselves from consequences.",
+          "Select a short quotation from your own copy of the play.",
+          "Analyse how the Inspector’s response challenges that distance.",
+          "Connect the exchange to the wider pattern of linked decisions."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Collective responsibility",
+          "meaning": "Responsibility understood as shared across a group or society."
+        },
+        {
+          "term": "Dramatic function",
+          "meaning": "The role an element plays in shaping a drama’s meaning or action."
+        }
+      ],
+      "takeaways": [
+        "Track the sequence of revelations.",
+        "Compare acceptance of blame with concern for reputation.",
+        "Use your own copy for accurate quotation."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "comparing-poems",
+    "subject": "literature",
+    "title": "Comparing poems",
+    "summary": "Build a comparison around ideas and methods rather than two separate summaries.",
+    "position": 9,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Choose a shared focus",
+          "text": "Begin with the idea in the task, such as power, memory or conflict. Establish a meaningful similarity or difference between the poems. They need not have identical settings or speakers to offer a useful comparison."
+        },
+        {
+          "title": "Compare methods alongside meaning",
+          "text": "Pair specific evidence from each poem and explain how the methods develop related or contrasting attitudes. Language, form and structure can all matter. Avoid forcing every observation into a perfectly symmetrical pair."
+        },
+        {
+          "title": "Keep the comparison moving",
+          "text": "A response should develop its central view as it moves between poems. Comparative links such as whereas or similarly help only if the relationship is explained. End by drawing together what the comparison reveals about the focus."
+        }
+      ],
+      "example": {
+        "title": "Example: comparing presentations of power",
+        "steps": [
+          "One poem may represent power through a monument; another through a speaker’s voice.",
+          "Compare whether each source of power appears lasting or vulnerable.",
+          "Analyse a precise image or structural turn from each poem.",
+          "Explain how the difference changes the reader’s understanding of power."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Speaker",
+          "meaning": "The voice speaking within a poem, not automatically the poet."
+        },
+        {
+          "term": "Comparative argument",
+          "meaning": "A line of reasoning developed through similarities and differences."
+        }
+      ],
+      "takeaways": [
+        "Compare an idea, not just a device.",
+        "Use evidence from both poems.",
+        "Distinguish the poet from the speaker."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "unseen-poetry",
+    "subject": "literature",
+    "title": "Approaching unseen poetry",
+    "summary": "Develop a supported reading without needing prior knowledge of the poem.",
+    "position": 10,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Read for the situation",
+          "text": "First establish who seems to be speaking, what is happening and the overall tone. Uncertainty is normal. Build a provisional understanding, then test it against details instead of deciding on a fixed interpretation from the title alone."
+        },
+        {
+          "title": "Find changes and patterns",
+          "text": "Notice repeated words, contrasts, images and shifts in tone or focus. Consider how the ending changes or completes the opening. Form and punctuation matter when they contribute to an interpretation, not simply because they are visible."
+        },
+        {
+          "title": "Choose evidence selectively",
+          "text": "A few carefully explained details are more useful than a catalogue of devices. You can offer a cautious interpretation when supported by the wording. Avoid inventing a poet’s biography or historical situation that the task does not provide."
+        }
+      ],
+      "example": {
+        "title": "Example: an original two-line image",
+        "steps": [
+          "“A small lamp kept its promise / while rain erased the road.”",
+          "The lamp is personified as loyal, suggesting persistence or hope.",
+          "The contrast with an obscured road introduces uncertainty.",
+          "A plausible reading is hope maintained despite not knowing what comes next."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Tone",
+          "meaning": "The attitude or emotional quality conveyed by the language."
+        },
+        {
+          "term": "Provisional reading",
+          "meaning": "An initial interpretation that can develop as evidence is considered."
+        }
+      ],
+      "takeaways": [
+        "Understand the situation before listing devices.",
+        "Track the poem’s movement.",
+        "Support interpretations without inventing background information."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "understanding-extract",
+    "subject": "language",
+    "title": "Understanding an extract",
+    "summary": "Build an accurate understanding before analysing how a passage works.",
+    "position": 1,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Read the framing information",
+          "text": "The introduction may establish a setting, speaker or situation. Use it to orient your reading, while distinguishing what it states from what you infer. Notice any specified line range before selecting evidence."
+        },
+        {
+          "title": "Follow the passage literally",
+          "text": "Identify who acts, what changes and what the pronouns refer to. A clear literal understanding prevents misreadings later. Separate facts the narrator gives from a character’s opinions, memories or assumptions."
+        },
+        {
+          "title": "Summarise the movement",
+          "text": "Reduce each main section to a short statement in your own words. Then consider how the overall mood or focus develops. This provides a foundation for language and structure analysis without replacing either."
+        }
+      ],
+      "example": {
+        "title": "Example: an original miniature extract",
+        "steps": [
+          "“Lena checked the empty platform. The message said five minutes. An hour later, she was still holding her ticket.”",
+          "Literal facts: Lena is waiting on a platform and has a ticket.",
+          "The time contrast suggests that the expected arrival has not happened.",
+          "Do not claim that the train is cancelled: the extract does not establish that."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Explicit",
+          "meaning": "Stated directly in the text."
+        },
+        {
+          "term": "Inference",
+          "meaning": "A conclusion supported by clues rather than directly stated."
+        }
+      ],
+      "takeaways": [
+        "Use the specified section of text.",
+        "Resolve pronouns and sequence accurately.",
+        "Separate explicit facts from supported inferences."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "making-inferences",
+    "subject": "language",
+    "title": "Making inferences",
+    "summary": "Use textual clues to draw conclusions without guessing beyond the evidence.",
+    "position": 2,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Move from clue to conclusion",
+          "text": "An inference explains what a detail suggests. A character repeatedly checking a door may suggest anxiety or anticipation, depending on context. The inference should be supported by the exact behaviour or wording you identify."
+        },
+        {
+          "title": "Consider more than one clue",
+          "text": "Combining details can strengthen an interpretation. A smile alone may be ambiguous; a smile alongside shaking hands creates a more complex impression. Notice evidence that complicates your first impression."
+        },
+        {
+          "title": "Keep certainty proportionate",
+          "text": "Use measured language when the text leaves possibilities open. A useful inference is plausible and specific. Avoid attaching an elaborate backstory that has no support in the passage."
+        }
+      ],
+      "example": {
+        "title": "Example: original description of a character",
+        "steps": [
+          "“He rehearsed the greeting under his breath, then wiped his palms on his coat.”",
+          "Rehearsing suggests that the meeting matters and he wants to get it right.",
+          "Wiping palms may indicate nervousness.",
+          "Together, these clues support an inference of anxious anticipation."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Evidence",
+          "meaning": "The textual detail supporting your view."
+        },
+        {
+          "term": "Ambiguity",
+          "meaning": "The possibility of more than one reasonable meaning."
+        }
+      ],
+      "takeaways": [
+        "Name the clue behind the conclusion.",
+        "Use multiple details where helpful.",
+        "Do not confuse inference with unsupported invention."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "word-choices",
+    "subject": "language",
+    "title": "Analysing word choices",
+    "summary": "Explain why a particular word matters in its immediate context.",
+    "position": 3,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Choose a productive detail",
+          "text": "Look for wording that shapes an impression: a forceful verb, an unexpected adjective, a repeated phrase or a contrast. A single word can be useful, but analyse the phrase around it when its meaning depends on context."
+        },
+        {
+          "title": "Explore associations",
+          "text": "Explain what the selected word suggests and how this contributes to the description. A verb such as dragged implies effort or reluctance in a way that moved does not. Avoid relying on a dictionary definition as your entire explanation."
+        },
+        {
+          "title": "Link back to the focus",
+          "text": "Your analysis should answer the task’s specific focus, such as tension or a character’s attitude. Explain a plausible effect rather than using general phrases like it makes the reader want to read on."
+        }
+      ],
+      "example": {
+        "title": "Example: “the wind clawed at the shutters”",
+        "steps": [
+          "The verb “clawed” associates the wind with an attacking creature.",
+          "Its physical aggression makes the house seem under threat.",
+          "The shutters become a vulnerable boundary between inside and outside.",
+          "The wording therefore contributes to a threatening atmosphere."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Verb",
+          "meaning": "A word expressing an action, event or state."
+        },
+        {
+          "term": "Semantic field",
+          "meaning": "A group of words linked by an area of meaning."
+        }
+      ],
+      "takeaways": [
+        "Select precise wording.",
+        "Explain associations in context.",
+        "Tie the observation to the task’s focus."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "explaining-imagery",
+    "subject": "language",
+    "title": "Explaining imagery",
+    "summary": "Unpack comparisons and sensory details instead of merely labelling them.",
+    "position": 4,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "What is being compared?",
+          "text": "A simile makes an explicit comparison, often using like or as. A metaphor describes one thing in terms of another. Identify the qualities transferred by the comparison: fragility, weight, speed or threat, for example."
+        },
+        {
+          "title": "Beyond visual description",
+          "text": "Imagery can evoke sound, touch, smell and taste as well as sight. Several senses may combine to establish an atmosphere. Personification gives human qualities to something non-human, shaping how it is perceived."
+        },
+        {
+          "title": "Explain the particular image",
+          "text": "Avoid generic claims that imagery helps readers imagine the scene. State what specific impression the image creates and why it suits the context. A comparison can carry more than one relevant association."
+        }
+      ],
+      "example": {
+        "title": "Example: “the city was a furnace”",
+        "steps": [
+          "The city is compared to an enclosed source of intense heat.",
+          "The image suggests more than ordinary warmth: it may feel oppressive.",
+          "Depending on the passage, it could also suggest danger or relentless activity.",
+          "Choose the interpretation supported by surrounding details."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Metaphor",
+          "meaning": "Describing something as another thing to transfer qualities or associations."
+        },
+        {
+          "term": "Sensory detail",
+          "meaning": "Language linked to sight, hearing, touch, smell or taste."
+        }
+      ],
+      "takeaways": [
+        "Explain which qualities the image transfers.",
+        "Consider senses beyond sight.",
+        "Keep the interpretation connected to the passage."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "language-structure",
+    "subject": "language",
+    "title": "Analysing structure in a passage",
+    "summary": "Track how the writer guides attention from opening to ending.",
+    "position": 5,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Follow the focus",
+          "text": "Notice whether the passage begins broadly or with a small detail, and where attention moves next. A shift from a busy setting to one isolated person can change the reader’s priorities and understanding."
+        },
+        {
+          "title": "Track time and information",
+          "text": "Flashbacks, delayed explanations and changes of pace affect what the reader knows and expects. Short sections may accelerate action, while detailed description can slow the moment down. Effects depend on the actual passage."
+        },
+        {
+          "title": "Explain a sequence",
+          "text": "Discuss where a feature occurs and how it relates to another part. Saying that the writer uses a short sentence is incomplete unless you explain how it changes the flow or emphasis at that point."
+        }
+      ],
+      "example": {
+        "title": "Example: an original opening sequence",
+        "steps": [
+          "A paragraph first describes an ordinary morning market.",
+          "The focus narrows to an abandoned bag beneath a stall.",
+          "The owner’s identity is withheld while the crowd continues moving.",
+          "The shift makes a small object newly significant and creates uncertainty."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Focus",
+          "meaning": "The person, place or detail receiving attention."
+        },
+        {
+          "term": "Pace",
+          "meaning": "The perceived speed at which a passage develops."
+        }
+      ],
+      "takeaways": [
+        "Track the passage from start to finish.",
+        "Explain shifts rather than listing features.",
+        "Connect information order to the reader’s understanding."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "comparing-viewpoints",
+    "subject": "language",
+    "title": "Comparing viewpoints",
+    "summary": "Compare attitudes and the ways writers communicate them.",
+    "position": 6,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Establish each viewpoint",
+          "text": "Before comparing methods, identify what each writer thinks or feels about the shared subject. A writer can have mixed attitudes, such as admiration combined with concern. Support your description with evidence."
+        },
+        {
+          "title": "Pair relevant evidence",
+          "text": "Choose details that allow a meaningful comparison, even if the situations differ. One writer might use personal experience while another relies on statistics. Explain how these methods support their attitudes rather than just noting that they differ."
+        },
+        {
+          "title": "Develop a balanced comparison",
+          "text": "Give attention to both texts. Organise around shared aspects so the response does not become two unconnected essays. Similarities can be qualified by differences in tone, purpose or audience."
+        }
+      ],
+      "example": {
+        "title": "Example: two original attitudes to city life",
+        "steps": [
+          "Writer A describes the city as “a door that never closes”.",
+          "Writer B describes it as “a machine that never rests”.",
+          "Both emphasise continual activity, but A suggests opportunity while B suggests pressure.",
+          "The contrasting metaphors reveal different evaluations of a shared feature."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Viewpoint",
+          "meaning": "A writer’s position or attitude towards a subject."
+        },
+        {
+          "term": "Purpose",
+          "meaning": "What a text aims to achieve with its audience."
+        }
+      ],
+      "takeaways": [
+        "Compare attitudes as well as content.",
+        "Use evidence from each source.",
+        "Explain how methods express the viewpoints."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "evaluating-text",
+    "subject": "language",
+    "title": "Evaluating a text",
+    "summary": "Make a supported judgement about how successfully a passage achieves an effect.",
+    "position": 7,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Identify the judgement required",
+          "text": "An evaluation considers a statement or claim about the passage. Decide how far it is supported, rather than simply agreeing by default. Keep within the specified section if the task sets one."
+        },
+        {
+          "title": "Use methods as evidence",
+          "text": "Select details that help explain your judgement. Consider the writer’s language, information choices and structural decisions. A judgement becomes convincing when readers can follow how those details lead to it."
+        },
+        {
+          "title": "Allow a nuanced position",
+          "text": "You may agree strongly, partly agree or qualify a statement where the evidence allows. Avoid treating evaluation as a personal preference about whether the story is enjoyable. Discuss what the writer makes convincing or effective and why."
+        }
+      ],
+      "example": {
+        "title": "Example: evaluating an original suspense scene",
+        "steps": [
+          "Judgement: the passage creates uncertainty effectively.",
+          "Evidence: a sound is described before its source is revealed.",
+          "Explanation: the reader shares the character’s limited knowledge.",
+          "Qualification: a reassuring detail may briefly reduce the tension before it rises again."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Evaluation",
+          "meaning": "A reasoned judgement supported by evidence."
+        },
+        {
+          "term": "Qualification",
+          "meaning": "A limitation or refinement of a broader claim."
+        }
+      ],
+      "takeaways": [
+        "Give a clear judgement.",
+        "Explain how details support it.",
+        "Focus on effectiveness, not unsupported personal preference."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "planning-creative-writing",
+    "subject": "language",
+    "title": "Planning creative writing",
+    "summary": "Build a manageable piece around a clear viewpoint and a purposeful change.",
+    "position": 8,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Keep the scope controlled",
+          "text": "A short piece does not need an entire life story or many characters. One setting, a small number of people and a meaningful change can create a focused narrative. Decide whose experience the reader follows."
+        },
+        {
+          "title": "Choose details with a job",
+          "text": "Specific sensory details can establish setting, reveal mood or foreshadow a change. Select rather than overload. A recurring object or image can give the beginning and ending a useful connection."
+        },
+        {
+          "title": "Plan an achievable ending",
+          "text": "Know where the piece is going before you begin. An ending might reveal a changed understanding, return to an opening image or leave a deliberate uncertainty. Avoid rushing through a large plot simply to reach a dramatic twist."
+        }
+      ],
+      "example": {
+        "title": "Example: planning an unexpected arrival",
+        "steps": [
+          "Opening: a person locks a quiet shop during heavy rain.",
+          "Disruption: someone knocks, holding an object the owner recognises.",
+          "Development: small details reveal a connection from the past.",
+          "Ending: return to the sound of the rain, now experienced differently."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Viewpoint",
+          "meaning": "The perspective through which events are presented."
+        },
+        {
+          "term": "Foreshadowing",
+          "meaning": "A detail that prepares for or hints at a later development."
+        }
+      ],
+      "takeaways": [
+        "Control the scale of the story.",
+        "Make description serve a purpose.",
+        "Plan the ending before drafting."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "speeches-articles",
+    "subject": "language",
+    "title": "Writing speeches and articles",
+    "summary": "Adapt a clear argument to audience, purpose and form.",
+    "position": 9,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Know who you are addressing",
+          "text": "A speech to a school council and an article for a local newspaper need different framing. Decide what the audience already knows, what they care about and what response you want. Keep the tone appropriate rather than automatically formal."
+        },
+        {
+          "title": "Develop reasons and examples",
+          "text": "State a clear position and build it through explained reasons. A practical example is often stronger than a list of slogans. Address a reasonable counterargument fairly, then show why your proposal remains worthwhile."
+        },
+        {
+          "title": "Use rhetoric selectively",
+          "text": "Direct address, repetition and rhetorical questions can strengthen emphasis when used purposefully. Too many can make the writing mechanical. An article benefits from a clear headline and organised paragraphs; a speech should sound natural when spoken."
+        }
+      ],
+      "example": {
+        "title": "Example: arguing for a quiet lunchtime room",
+        "steps": [
+          "Proposal: provide a supervised room for reading and quiet study.",
+          "Reason: some students need a calm break from crowded spaces.",
+          "Counterargument: supervision requires staffing; suggest a manageable trial schedule.",
+          "Ending: ask the council to test the idea for a half-term and review feedback."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Rhetoric",
+          "meaning": "Techniques used to shape persuasive communication."
+        },
+        {
+          "term": "Counterargument",
+          "meaning": "A reasonable opposing argument that you address."
+        }
+      ],
+      "takeaways": [
+        "Adapt form and tone to the audience.",
+        "Develop reasons with concrete examples.",
+        "End with a clear, realistic purpose."
+      ],
+      "diagram": null
+    }
+  },
+  {
+    "id": "paragraphs-punctuation",
+    "subject": "language",
+    "title": "Paragraphs and punctuation",
+    "summary": "Organise ideas clearly and use sentence boundaries with control.",
+    "position": 10,
+    "published": true,
+    "content": {
+      "sections": [
+        {
+          "title": "Paragraphs shape movement",
+          "text": "Begin a new paragraph when the focus, time, place or speaker changes, or when an argument moves to its next stage. A short paragraph can create emphasis, but it works best when it contrasts with surrounding writing."
+        },
+        {
+          "title": "Control sentence boundaries",
+          "text": "A full stop separates complete sentences. A comma alone normally cannot join two independent clauses; use a conjunction, full stop or suitable semicolon instead. A colon can introduce an explanation or list after a complete clause."
+        },
+        {
+          "title": "Edit for clarity",
+          "text": "Check whether pronouns have clear referents, tense remains controlled and punctuation helps meaning. Vary sentence length for a reason rather than trying to use every punctuation mark. In dialogue, make each new speaker clear and apply a consistent punctuation style."
+        }
+      ],
+      "example": {
+        "title": "Example: repairing a comma splice",
+        "steps": [
+          "Draft: “The gate was locked, we turned back.”",
+          "Each side is a complete clause, so the comma alone is insufficient.",
+          "One repair: “The gate was locked, so we turned back.”",
+          "Another: “The gate was locked. We turned back.” The shorter sentences create a firmer pause."
+        ]
+      },
+      "terms": [
+        {
+          "term": "Independent clause",
+          "meaning": "A clause that can stand as a complete sentence."
+        },
+        {
+          "term": "Comma splice",
+          "meaning": "Two independent clauses joined only by a comma."
+        }
+      ],
+      "takeaways": [
+        "Let paragraphs mark meaningful changes.",
+        "Check complete sentence boundaries.",
+        "Use punctuation to guide meaning and pace."
+      ],
+      "diagram": null
+    }
+  }
+];

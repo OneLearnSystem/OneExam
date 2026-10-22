@@ -1,0 +1,130 @@
+NEW MATHS PRACTICE TOPICS
+
+1. Order of operations
+2. Calculating with negatives
+3. Place value
+4. Rounding decimal places
+5. Significant figures
+6. Estimating calculations
+7. Factors
+8. Multiples
+9. Prime numbers
+10. Prime factorisation
+11. Highest common factor
+12. Lowest common multiple
+13. Adding fractions
+14. Multiplying fractions
+15. Dividing fractions
+16. Mixed numbers
+17. Fractions of quantities
+18. Recurring decimals
+19. Index laws
+20. Negative indices
+21. Fractional indices
+22. Simplifying surds
+23. Rationalising denominators
+24. Calculating in standard form
+25. Error intervals
+26. Upper and lower bounds
+27. Collecting like terms
+28. Expanding a single bracket
+29. Expanding double brackets
+30. Factorising with a common factor
+31. Factorising quadratics
+32. Substitution
+33. Changing the subject
+34. Linear inequalities
+35. Simultaneous linear equations
+36. Simultaneous nonlinear equations
+37. Completing the square
+38. Quadratic formula
+39. Algebraic fractions
+40. Algebraic proof
+41. Function notation
+42. Composite functions
+43. Inverse functions
+44. Iteration
+45. Geometric sequences
+46. Quadratic sequences
+47. Fibonacci-type sequences
+48. Midpoints
+49. Distance between coordinates
+50. Parallel lines
+51. Perpendicular lines
+52. Equation of a line through points
+53. Best buys and unit pricing
+54. Currency conversion
+55. Scaling recipes
+56. Map scales
+57. Direct proportion
+58. Inverse proportion
+59. Compound interest
+60. Depreciation
+61. Repeated percentage growth
+62. Density
+63. Pressure
+64. Metric area conversions
+65. Time calculations
+66. Perimeter of compound shapes
+67. Circle circumference
+68. Area of circles
+69. Semicircle perimeter
+70. Arc length
+71. Sector area
+72. Volume of prisms
+73. Volume of cylinders
+74. Volume of cones
+75. Volume of spheres
+76. Surface area of cuboids
+77. Cylinder surface area
+78. Similarity of lengths
+79. Similarity of areas
+80. Similarity of volumes
+81. Triangle angle sums
+82. Exterior angles of polygons
+83. Angles in parallel lines
+84. Polygon interior-angle sums
+85. Three-figure bearings
+86. Right-angle trigonometry
+87. Sine rule
+88. Cosine rule
+89. Triangle area using sine
+90. Angles at the centre
+91. Cyclic quadrilaterals
+92. Alternate segment theorem
+93. Adding vectors
+94. Vector magnitude
+95. Rotations
+96. Enlargements
+97. Translations
+98. Reflections
+99. Loci and constructions
+100. Finding the median
+101. Finding the mode
+102. Finding the range
+103. Interquartile range
+104. Estimated mean from grouped data
+105. Frequency density
+106. Cumulative frequency
+107. Box plots
+108. Stratified sampling
+109. Relative frequency
+110. Expected frequency
+111. Independent events
+112. Sampling without replacement
+113. Conditional probability
+114. Venn diagram regions
+115. Set union
+116. Tree diagrams
+117. Cubic graphs
+118. Reciprocal graphs
+119. Exponential graphs
+120. Translating graphs
+121. Distance-time graphs
+122. Velocity-time gradients
+123. Tangents and rates of change
+124. Area under velocity-time graphs
+125. Graphical simultaneous equations
+126. Regions satisfying inequalities
+
+1260 new questions; 10 variations per new topic.

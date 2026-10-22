@@ -1,6 +1,6 @@
 const cfg=window.ONEEXAM_CONFIG||{};
 export const configured=Boolean(cfg.supabaseUrl&&cfg.supabaseKey);
-export const fresh=()=>({name:'',settings:{},attempts:[],bookmarks:[],drafts:{},answers:{},lastQuestion:null,session:null,plans:[],schoolTimes:{}});
+export const fresh=()=>({name:'',settings:{},attempts:[],bookmarks:[],drafts:{},answers:{},lastQuestion:null,session:null,plans:[],schoolTimes:{},learnedLessons:{}});
 let session=null;try{session=JSON.parse(localStorage.getItem('oneexam-auth')||'null')}catch{}
 let revision=0,loaded=false,queue=Promise.resolve(),saveTimer;
 export let state=fresh();

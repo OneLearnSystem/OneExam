@@ -1,0 +1,27 @@
+ONEEXAM 1.2 — FLAT WEBSITE UPDATE
+
+Upload all website files together to the root of your GitHub Pages repository.
+There are no asset folders. Keep your current config.js if you have customised it.
+After publishing, refresh the page. Existing question IDs and saved progress are retained.
+
+WHAT IS NEW
+- 1,260 extra Maths questions across 126 additional topics (10 data variations per topic).
+- Total: 1,338 Maths questions across 144 topics.
+- Mixed question browsing, 24 cards per page, different-topic Next question, topic-balanced practice exams.
+- More interactive cubic, reciprocal and exponential graphs.
+- 30 explanation-led learning lessons: 10 Maths, 10 English Literature, 10 English Language.
+- Worked examples, key vocabulary, takeaways and a personal read checklist.
+
+SQL
+Run OneExam-Learn-30-Lessons.sql in your Supabase SQL Editor to publish the learning library.
+The website also includes the 30 lessons as a fallback if that library cannot be reached.
+Rerunning the seed restores its 30 supplied lesson records, including published status; back up any custom edits first.
+The questions are bundled in expanded-questions.mjs: uploading the website adds them. They do not need SQL.
+For a brand-new installation only, run OneExam-Account-Setup.sql as described in your original account setup.
+No SQL was executed against your live project during preparation.
+
+PRACTICE NOTES
+These are original practice questions, not official exam-board papers. Numerical scoring checks final answers;
+method working is for self-review. Related variants deliberately share a method, while mixed sessions rotate topics.
+English writing activities remain unchanged. Reading progress is a personal checklist, not an assessment.
+The Summer 2027 timetable scope remains AQA and Edexcel as previously supplied.

@@ -1,3 +1,4 @@
+import {expandedQuestions} from './expanded-questions.mjs?v=1.2';
 export const subjects={maths:{name:'Maths',description:'Foundation & Higher · Build your confidence',colour:'blue'},literature:{name:'English Literature',description:'Your texts, themes & poetry',colour:'purple'},language:{name:'English Language',description:'Reading, analysing & writing',colour:'teal'}};
 export const questions=[];
 function add(topic,tier,marks,prompt,answer,hint,solution,extra={}){questions.push({id:'m'+(questions.length+1),subject:'maths',topic,tier,marks,prompt,answer,hint,solution,calculator:false,...extra})}
@@ -55,3 +56,5 @@ for(const board of ['AQA','Edexcel']){
 export function selectedExams(settings={}){return exams.filter(x=>{const s=settings[x.subject];return s&&s.board===x.board&&(x.subject!=='maths'||x.tier===s.tier)&&(x.subject!=='language'||x.board!=='Edexcel'||(s.spec||'1EN0')===(x.spec||'1EN0'))}).sort((a,b)=>a.date.localeCompare(b.date));}
 export function numberAnswer(raw){const s=String(raw).trim().replace(/−/g,'-').replace(/,/g,'');if(/^[+-]?(\d+(\.\d*)?|\.\d+)$/.test(s))return Number(s);const m=s.match(/^([+-]?\d+(?:\.\d+)?)\s*\/\s*([+-]?\d+(?:\.\d+)?)$/);return m&&Number(m[2])!==0?Number(m[1])/Number(m[2]):NaN;}
 export function mark(q,answer){if(q.kind==='graph'){const ps=answer?.points||[];let correct=0;for(const [x,y] of q.points)if(ps.some(p=>Math.abs(p[0]-x)<.06&&Math.abs(p[1]-y)<.06))correct++;const noExtra=ps.every(p=>q.points.some(t=>Math.abs(p[0]-t[0])<.06&&Math.abs(p[1]-t[1])<.06));const shape=answer?.joined===q.curve&&noExtra;return Math.min(q.marks,Math.floor(correct*4/q.points.length)+(correct===q.points.length&&shape?1:0));}if(q.kind==='choice')return Number(answer)===q.correct&&answer!==''?q.marks:0;const v=numberAnswer(answer);return Number.isFinite(v)&&Math.abs(v-q.answer)<=Math.max(1e-8,Math.abs(q.answer)*.001)?q.marks:0;}
+
+questions.push(...expandedQuestions);
